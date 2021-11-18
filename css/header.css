@@ -1,0 +1,57 @@
+header {
+    background-color: #FBEDF9;
+    height: 92vh;
+}
+header .red-label {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end   ;
+    height: calc(var(--banner-height) * 2);
+    background-color: #E34140;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.red-label p {
+    padding-bottom: 1em;
+}
+
+.red-label a {
+    color: #fff;
+}
+
+
+.header-container .apple-gift-img-container {
+    height: 87px;
+    width: 71px;
+    margin: 35px  auto 20px auto    ;
+    background-image: url('./../assets/images/logo__dcojfwkzna2q_medium_2x.png');
+    background-size: 100%;
+}
+
+.header-container h1 {
+    margin: 10px auto;
+}
+
+.header-container a {
+    color: var(--link-color);
+    font-size: 21px;
+}
+
+
+
+.phones-imgs-container {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.phones-imgs-container img {
+    margin: 20px 5px;
+    height: 100%;
+    width: auto;
+    object-fit: fill;
+}

@@ -1,0 +1,22 @@
+black navbar: 
+	fixed position, display flex, justify content. locate outside of the header tag 
+
+header page:
+	height: almost 100vh; make variable
+	text align center flex column
+red label:
+	text align center margin top {height of black navbar}
+	make variable for height size, also for black navbar
+main products: 
+	divide to 2 sections. containing 2 container divs each
+	1st div with h1, h3 and links container
+	2nd div with bg-image  
+other products gallery
+	section with 6 articles. displayed in grid with 2 columns
+	each article: 
+		header, additional info & links, flexed in column
+footer:
+	margin left & right
+	map seperated to 5 columns with grid
+	each column containing list elements
+	copyrights & shit are also in separate list flexed row

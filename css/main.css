@@ -1,0 +1,66 @@
+main {
+    margin-top: 10vh;
+}
+
+main h1, main h3 {
+    color: #1D1D1F;
+}
+
+main h1 {
+    margin: 10px;
+}
+
+main h3 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+main .links-container {
+    font-size: 19px;
+}
+
+main section {
+    margin-bottom: 5px;
+}
+.iphone13-pro{
+    height: 72vh;
+    background:url('./../assets/images/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg') no-repeat center center/cover ;
+}
+
+.iphone13-pro, .iphone13 {
+    background-size: 90%;
+    background-position-y: 70%;
+}
+
+.iphone13 {
+    height: 80vh;
+    background-color: #35283C;
+    overflow: hidden;
+}
+
+.iphone13 a {
+    color: #2A92F7;
+}
+
+.iphone13 .section-image-container {
+    background: url('./../assets/images/hero_iphone_13__f194u1rdooeq_medium_2x.jpg') no-repeat  top/cover;
+    height: 54vh;
+    background-size: 70%;
+    background-position-y: 104%;
+    background-position-x: 42%;
+
+}
+
+.iphone13 .section-header {
+    color: #F5F5F7;
+    padding-top: 45px;
+    font-weight: bolder;
+}
+
+.iphone13 .section-header-description{
+    color: #FEC2EB;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -1.6px;
+    padding-bottom: 5px;
+}

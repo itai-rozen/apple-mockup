@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --banner-height: 44px;
+    --primary-height: 90vh;
+    --center-margin: 0 247.6px;
+    --center-padding: 0 22px;
+    --header-text-size:  3.2rem;
+    --link-color: #1471d0;
+}
+
+@font-face {
+    font-family: 'Apple' ;
+    src: url('./../assets/fonts/sf-pro-text_regular.woff2');
+}
+
+@font-face {
+    font-family: 'Apple-sb';
+    src: url('./../assets/fonts/sf-pro-text_semibold.woff2');
+}
+@font-face {
+    font-family: 'Apple-italic';
+    src: url('./../assets/fonts/sf-pro-text_regular-italic.woff2');
+}
+
+
+
+body {
+    text-align: center;
+    font-family: 'Apple', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: var(--header-text-size);
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    color: var(--link-color);
+    margin: 10px;
+}
+
+.links-container * {
+    padding: 0 10px;
+}

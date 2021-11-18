@@ -1,0 +1,125 @@
+section .products-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 12px;
+}
+
+section article {
+    display: flex;
+    flex-flow: column;
+    background-color: #FBFBFD;
+    height: 85vh;
+}
+
+article h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+article .info-container {
+    padding-top: 50px;
+    max-height: 40%;
+}
+
+article .additional-info {
+    font-size: 20px;
+    padding: 6px ;
+    letter-spacing: -0.5px;
+}
+
+
+
+.product-1 .product-img-container {
+    height: 100%;
+    background: url('./../assets/images/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg') no-repeat center/cover;
+    background-position-y: 100%;
+}
+
+.product-2 .product-img-container {
+    height: 60%;
+    background: url('./../assets/images/tile_airpods__fuv6vgn42y2q_medium_2x.jpg') no-repeat center/cover;
+    background-position-y: 0%;
+    background-size: 90%;
+}
+
+.product-3 .product-img-container {
+    background: url('./../assets/images/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg') no-repeat center center/cover;
+    height: 100%;
+    background-position-y: 80%;
+    background-size: 130%;   
+}
+
+
+
+.product-4 {
+    background-color: #F5F5F7;
+    line-height: 16px;
+}
+
+.product-4 h2{
+     font-size: 2rem; 
+    font-weight: 700;
+    font-family: 'Apple-sb', sans-serif; 
+}
+
+.product-4 .product-img-container {
+    background: url('./../assets/images/tile_watch__e9n11b6m6yq2_medium_2x.jpg') no-repeat center center/cover;
+    height: 100%;
+    background-position-y: 110%;
+    background-size: 90%;   
+}
+
+ .product-new {
+    color: #D58F65;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+ .series-7 {
+    color: #D54F54;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.product-5 .product-img-container {
+    background: url('./../assets/images/tile__cauwwcyyn9hy_medium_2x.jpg') no-repeat center center/cover;
+    height: 100%;
+    background-position-y: 100%;
+    background-size: 90%;   
+}
+
+.product-6 {
+    background: url('./../assets/images/promo_dickinson__c9ea4l2f5rki_medium_2x.jpg') no-repeat center center/cover;
+    /* background- */
+    height: 100%;
+    width: 100%;
+    background-position-y: 14%;
+    color: #fff;
+    position: relative;
+}
+
+.product-6 .info-container {
+    max-height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-top: 60px ;
+    padding-bottom: 30px;
+}
+
+.product-6 .additional-info {
+    font-size: 18px;
+}
+
+.dickinson {
+    background: url('./../assets/images/logo_dickinson_title__exfqr7iiyc8y_large.png') no-repeat center center/cover;
+    position: absolute;
+    bottom: 80px;
+    left: 33%;
+    height: 20%;
+    width: 33%;
+}
